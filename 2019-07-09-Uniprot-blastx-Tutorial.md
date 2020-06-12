@@ -10,7 +10,7 @@ In this tutorial, students will familiarize themselves with the [UniProt Swiss-P
 	- Gene ontology (molecular function)
 3. Download the modified UniProtKB table as a tab-delimited file. This version will include additional GOterm columns and can be joined with `blastx` output. However, this file will not be compatible with `blastx` input requirements.
 4. Download a `blastx`-compatible Uniprot database from [this link](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz) using `curl`. Unzip the file using `gunzip *gz`.
-5. Download the latest version of `blast` from [this link](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and install on your machine.
+5. Download the latest version of `blast` from [this link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and install on your machine.
 6. Create a `blast` database. `{blastDirectory}` should be the specific path to the `blast` directory on your machine. If you do not know what the absolute path is, you can drag the `makeblastdb` program from the Finder window into the Terminal window. The Terminal will automatically produce the absolute path to this program. When running the commands below in the computer, do not include `\`. Those are included below solely for demonstration purposes.
 	- Path to `makeblastdb`
 	- Path to input file. The input file is the Uniprot database downloaded from the FTP link.
