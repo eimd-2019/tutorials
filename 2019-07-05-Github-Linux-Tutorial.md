@@ -2,7 +2,7 @@
 
 In this tutorial, students will practice basic `bash` commands while setting up a Github repository. Students should join the [EMID 2019 organization](github.com/eimd-2019) and download [Github Desktop](desktop.github.com) before starting this tutorial. [ExplainShell](explainshell.com) is a good resource to keep open while working through the tutorial!
 
-1. Clone [this repository](github.com/eimd-2019/tutorials) to your personal Desktop.
+1. Clone [this repository](https://github.com/eimd-2019/tutorials) to your personal Desktop.
 2. Open Terminal and type `echo hello world :) `
 3. Explore directory structure.
 	- Use `pwd` to identify the present working directory.
